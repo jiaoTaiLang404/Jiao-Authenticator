@@ -1,0 +1,34 @@
+name: jiao_authenticator
+description: Private, offline time-based one-time password authenticator.
+publish_to: none
+version: 0.1.3+4
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  base32: 2.2.0
+  crypto: 3.0.8
+  cryptography: 2.9.0
+  file_picker: 13.3.2
+  flutter_secure_storage: 11.2.0
+  local_auth: 3.0.2
+  mobile_scanner: 7.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - artwork/jiao-launcher.png
+  shaders:
+    - shaders/glass.frag
